@@ -295,3 +295,29 @@ footer {
   font-size: 0.95rem;
   color: #555;
 }
+
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+
+.menu-toggle {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;   
+    flex-direction: column;
+    background: #f0f0f0;
+    padding: 10px;
+  }
+
+  .menu-toggle {
+    display: block; 
+    margin: 10px;
+  }
+}
