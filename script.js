@@ -1,5 +1,5 @@
 function toggleMenu(){
-    const menu = document.getElementById("nav-links");
+    const menu = document.querySelector(".nav-links");
 
     if(menu.style.display == "block"){
         menu.style.display = "none";
